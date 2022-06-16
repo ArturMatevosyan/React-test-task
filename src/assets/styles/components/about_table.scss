@@ -1,0 +1,11 @@
+.about_table{
+    margin-bottom: 17px;
+    .dataTitle{
+        line-height: 1.6;
+        &:nth-child(1){
+            font-weight: 600;
+            padding-right: 15px;
+
+        }
+    }
+}

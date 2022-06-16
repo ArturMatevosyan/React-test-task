@@ -1,0 +1,37 @@
+@import "../variables.scss";
+.section-item{
+    width:45px;
+    height: 36px;
+    background-color: white;
+    margin-left: 12px;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    overflow: hidden;
+    position: relative;
+    &:hover{
+        overflow: visible;
+    }
+    &:nth-child(1){
+        margin-left: 5px;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 32px;
+        }
+    }
+    .item-title{
+            position: absolute;
+            width: fit-content;
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+            font-size: 13px;
+            padding: 6px;
+            text-align: center;
+            top: 45px;
+            box-shadow: $box-shadow;
+            border:1px solid rgb(202, 202, 202);
+        }
+}

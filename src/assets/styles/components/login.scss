@@ -1,0 +1,22 @@
+.login-cont{
+    margin: auto;
+    max-width: 420px;
+    width: 100%;
+    height: fit-content;
+    box-shadow: $box-shadow;
+    border-radius: 7px;
+    padding: 20px 17px;
+    background-color: white;
+    border: 1px solid rgb(202,202,202);
+    
+    .login-cont_child{
+        h3{
+            text-align: center;
+            font-size: 25px;
+        }
+        .form-cont{
+            margin:20px 0;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.contact-us{
+    margin:0 17px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 125px;
+    height: 32px;
+    border-radius: 23px;
+    box-shadow: $box-shadow;
+    background-color: white;
+    @media only screen and (max-width:560px){
+        margin: 20px 0;
+    }
+    &:hover {
+        color: $color-green;
+      }
+    .contact-us_cont{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        width: 100%;
+        span{
+            margin-left: 10px;
+            @media only screen and (max-width:560px){
+                margin: auto;
+            }
+        }
+        .phone-img{
+            background-color: $color-green;
+            width: 32px;
+            height: 32px;
+            border-radius:50%;
+            @media only screen and (max-width:560px){
+                display: none;
+            }
+            img{
+                height: 100%;
+                width: 32px;
+            }
+        }
+    }
+    
+    
+}

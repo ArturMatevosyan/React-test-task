@@ -1,0 +1,12 @@
+.terms_link{
+    @include text_container;
+    .subtitle{
+        @include subtitle;
+    }
+    ul{
+        padding: $padding-ul;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.button-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    div{
+        text-decoration: none;
+        color: $color-green;
+        cursor: pointer;
+        &:hover{
+            color:#73982e;
+        }
+    }
+}

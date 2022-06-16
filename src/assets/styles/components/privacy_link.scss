@@ -1,0 +1,23 @@
+.privacy_link{
+    @include text_container;
+    .subtitle{
+        @include subtitle;
+    }
+    h4{
+        margin:17px 0;
+        &:nth-child(2){
+            margin:0
+        }
+    }
+    ul{
+        padding: $padding-ul;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+    .text_subtitle-3{
+        p{
+            margin-bottom: 17px;
+        }
+    }
+}
