@@ -59,177 +59,110 @@ export const Section = [
         subtitle:"Useful break",
         imgMain:img1,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "Fruit salad 200 g","Cold cucumis melo sliced","Cold watermelon sliced",
-                "Cleaned pitakhaya","Peeled bananas","Peeled coconut","Tray with fruits"
-            ],
-            itemQuantity:[
-                "1 p","0.5 kg","1 kg","1 p","100 g","1 p","1 p"
-            ],
-            itemPrice:[
-                "600 AMD","750 AMD","800 AMD","5300 AMD","180 AMD","1500 AMD","25000 AMD"
-            ],
-            itemImage:[
-                img1_1,img1_2,img1_3,img1_4,img1_5,img1_6,img1_7,
-            ]
-        }
+        item:[
+            {itemTitle:"Fruit salad 200 g",itemQuantity:"1 p",itemPrice:"600 AMD",itemImage:img1_1,id:Math.random()},
+            {itemTitle:"Cold cucumis melo sliced",itemQuantity:"0.5 kg",itemPrice:"750 AMD",itemImage:img1_2,id:Math.random()},
+            {itemTitle:"Cold watermelon sliced",itemQuantity:"1 kg",itemPrice:"800 AMD",itemImage:img1_3,id:Math.random()},
+            {itemTitle:"Cleaned pitakhaya",itemQuantity:"1 p",itemPrice:"5300 AMD",itemImage:img1_4,id:Math.random()},
+            {itemTitle:"Peeled bananas",itemQuantity:"100 g",itemPrice:"180 AMD",itemImage:img1_5,id:Math.random()},
+            {itemTitle:"Peeled coconut",itemQuantity:"1 p",itemPrice:"1500 AMD",itemImage:img1_6,id:Math.random()},
+            {itemTitle:"Tray with fruits",itemQuantity:"1 p",itemPrice:"25000 AMD",itemImage:img1_7,id:Math.random()},
+        ]
     },
     {
         subtitle:"Fruits",
-        
         imgMain:img2,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "Wild mushmala","Cherry chal","Cherries",
-                "Cherry","Nectar","Peach","Cold watermelon"
-            ],
-            itemQuantity:[
-                "0.5 kg","1 kg","1 kg","1 kg","1 kg","0.5kg","6kg"
-            ],
-            itemPrice:[
-                "1400 AMD","1250 AMD","2900 AMD","1900 AMD","2700 AMD","2950 AMD","2340 AMD"
-            ],
-            itemImage:[
-                img2_1,img2_2,img2_3,img2_4,img2_5,img2_6,img2_7,
-            ]
-        }
+        item:[
+            {itemTitle:"Wild mushmala",itemQuantity:"0.5 kg",itemPrice:"1400 AMD",itemImage:img2_1,id:Math.random()},
+            {itemTitle:"Cherry chal",itemQuantity:"1 kg",itemPrice:"1250 AMD",itemImage:img2_2,id:Math.random()},
+            {itemTitle:"Cherries",itemQuantity:"1 kg",itemPrice:"2900 AMD",itemImage:img2_3,id:Math.random()},
+            {itemTitle:"Cherry",itemQuantity:"1 kg",itemPrice:"1900 AMD",itemImage:img2_4,id:Math.random()},
+            {itemTitle:"Nectar",itemQuantity:"1 kg",itemPrice:"2700 AMD",itemImage:img2_5,id:Math.random()},
+            {itemTitle:"Peach",itemQuantity:"0.5kg",itemPrice:"2950 AMD",itemImage:img2_6,id:Math.random()},
+            {itemTitle:"Cold watermelon",itemQuantity:"6kg",itemPrice:"2340 AMD",itemImage:img2_7,id:Math.random()},
+        ],
     },
     {
         subtitle:"Vegetables",
         imgMain:img3,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "Potatoes","Potato new","Corn","Beans",
-                "Tomato mix","Haricot","Garlic","Cucumber"
-            ],
-            itemQuantity:[
-                "1 kg","1 kg","1 p","1 kg","0.5 kg","1 kg","100 g","1 kg"
-            ],
-            itemPrice:[
-                "700 AMD","390 AMD","420 AMD","1100 AMD","1200 AMD","910 AMD","140 AMD","650 AMD"
-            ],
-            itemImage:[
-                img3_1,img3_2,img3_3,img3_4,img3_5,img3_6,img3_7,img3_8
-            ]
-        }
+        item:[
+            {itemTitle:"Potatoes",itemQuantity:"1 kg",itemPrice:"700 AMD",itemImage:img3_1,id:Math.random()},
+            {itemTitle:"Potato new",itemQuantity:"1 kg",itemPrice:"390 AMD",itemImage:img3_2,id:Math.random()},
+            {itemTitle:"Corn",itemQuantity:"1 p",itemPrice:"420 AMD",itemImage:img3_3,id:Math.random()},
+            {itemTitle:"Beans",itemQuantity:"1 kg",itemPrice:"1100 AMD",itemImage:img3_4,id:Math.random()},
+            {itemTitle:"Tomato mix",itemQuantity:"0.5 kg",itemPrice:"1200 AMD",itemImage:img3_5,id:Math.random()},
+            {itemTitle:"Haricot",itemQuantity:"1 kg",itemPrice:"910 AMD",itemImage:img3_6,id:Math.random()},
+            {itemTitle:"Garlic",itemQuantity:"100 g",itemPrice:"140 AMD",itemImage:img3_7,id:Math.random()},
+            {itemTitle:"Cucumber",itemQuantity:"1 kg",itemPrice:"650 AMD",itemImage:img3_8,id:Math.random()},
+        ]
     },
     {
         subtitle:"Berries",
         imgMain:img4,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "Mulberry","Blueberries","Physalis","Kumquat"
-            ],
-            itemQuantity:[
-                "100 g","100 g","100 g","100 g"
-            ],
-            itemPrice:[
-                "165 AMD","1200 AMD","1200 AMD","670 AMD"
-            ],
-            itemImage:[
-                img4_1,img4_2,img4_3,img4_4,
-            ]
-        }
+        item:[
+            {itemTitle:"Mulberry",itemQuantity:"100 g",itemPrice:"165 AMD",itemImage:img4_1,id:Math.random()},
+            {itemTitle:"Blueberries",itemQuantity:"100 g",itemPrice:"1200 AMD",itemImage:img4_2,id:Math.random()},
+            {itemTitle:"Physalis",itemQuantity:"100 g",itemPrice:"1200 AMD",itemImage:img4_3,id:Math.random()},
+            {itemTitle:"Kumquat",itemQuantity:"100 g",itemPrice:"670 AMD",itemImage:img4_4,id:Math.random()},
+        ]
     },
     {
         subtitle:"Greens",
         imgMain:img5,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "Aloe","Bok Choi","Asparagus","Sorrel"
-            ],
-            itemQuantity:[
-                "1kg","0.5 kg","100 g","1 p"
-            ],
-            itemPrice:[
-                "3500 AMD","2000 AMD","100 AMD","1000 AMD"
-            ],
-            itemImage:[
-                img5_1,img5_2,img5_3,img5_4,
-            ]
-        }
+        item:[
+            {itemTitle:"Aloe",itemQuantity:"1kg",itemPrice:"3500 AMD",itemImage:img5_1,id:Math.random()},
+            {itemTitle:"Bok Choi",itemQuantity:"0.5 kg",itemPrice:"2000 AMD",itemImage:img5_2,id:Math.random()},
+            {itemTitle:"Asparagus",itemQuantity:"100 g",itemPrice:"100 AMD",itemImage:img5_3,id:Math.random()},
+            {itemTitle:"Sorrel",itemQuantity:"1 p",itemPrice:"1000 AMD",itemImage:img5_4,id:Math.random()},
+        ]
     },
     {
         subtitle:"Dried Fruits",
         imgMain:img6,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "Dried banana 30g .","Dried kiwi 30g ․","Dried orange 30g ․","Dried apple 30g ․"
-            ],
-            itemQuantity:[
-                "1 p","1 p","1 p","1 p"
-            ],
-            itemPrice:[
-                "1500 AMD","1700 AMD","1750 AMD","1500 AMD"
-            ],
-            itemImage:[
-                img6_1,img6_2,img6_3,img6_4,
-            ]
-        }
+        item:[
+            {itemTitle:"Dried banana 30g .",itemQuantity:"1 p",itemPrice:"1500 AMD",itemImage:img6_1,id:Math.random()},
+            {itemTitle:"Dried kiwi 30g ․",itemQuantity:"1 p",itemPrice:"1700 AMD",itemImage:img6_2,id:Math.random()},
+            {itemTitle:"Dried orange 30g ․",itemQuantity:"1 p",itemPrice:"1750 AMD",itemImage:img6_3,id:Math.random()},
+            {itemTitle:"Dried apple 30g ․",itemQuantity:"1 p",itemPrice:"1500 AMD",itemImage:img6_4,id:Math.random()},
+        ]
     },
     {
         subtitle:"Nuts",
         imgMain:img7,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "Unpeeled peanuts","Peeled apricot kernel","Groceries mixed","Brazil nuts",
-                "Pecan cleaned","Indian nut (cashew)"
-            ],
-            itemQuantity:[
-                "1 kg","100 g","100 g","100 g","100 g","100 g"
-            ],
-            itemPrice:[
-                "1900 AMD","520 AMD","880 AMD","1200 AMD","1550 AMD","1050 AMD"
-            ],
-            itemImage:[
-                img7_1,img7_2,img7_3,img7_4,img7_5,img7_6,
-            ]
-        }
+        item:[
+            {itemTitle:"Unpeeled peanuts",itemQuantity:"1 kg",itemPrice:"1900 AMD",itemImage:img7_1,id:Math.random()},
+            {itemTitle:"Peeled apricot kernel",itemQuantity:"100 g",itemPrice:"520 AMD",itemImage:img7_2,id:Math.random()},
+            {itemTitle:"Groceries mixed",itemQuantity:"100 g",itemPrice:"880 AMD",itemImage:img7_3,id:Math.random()},
+            {itemTitle:"Brazil nuts",itemQuantity:"100 g",itemPrice:"1200 AMD",itemImage:img7_4,id:Math.random()},
+            {itemTitle:"Pecan cleaned",itemQuantity:"100 g",itemPrice:"1550 AMD",itemImage:img7_5,id:Math.random()},
+            {itemTitle:"Indian nut (cashew)",itemQuantity:"100 g",itemPrice:"1050 AMD",itemImage:img7_6,id:Math.random()},
+        ]
     },
     {
         subtitle:"Chocolate and snacks",
         imgMain:img8,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "«Aygimarket» Bounty","Chocolate with dark protein Chikasport almonds, 100 g"
-            ],
-            itemQuantity:[
-                "1 p","1 p"
-            ],
-            itemPrice:[
-                "480 AMD","1700 AMD"
-            ],
-            itemImage:[
-                img8_1,img8_2
-            ]
-        }
+        item:[
+            {itemTitle:"«Aygimarket» Bounty",itemQuantity:"1 p",itemPrice:"480 AMD",itemImage:img8_1,id:Math.random()},
+            {itemTitle:"Chocolate with dark protein Chikasport almonds, 100 g",itemQuantity:"1 p",itemPrice:"1700 AMD",itemImage:img8_2,id:Math.random()},
+        ]
     },
     {
         subtitle:"Berries",
         imgMain:img9,
         id:Math.random(),
-        item:{
-            itemTitle:[
-                "«Freshmama» food bags 3 pcs","Reusable cotton bag","Reusable bag small","Large reusable bag"
-            ],
-            itemQuantity:[
-                "1 p","1 p","1 p","1 p"
-            ],
-            itemPrice:[
-                "1100 AMD","1250 AMD","450 AMD","950 AMD"
-            ],
-            itemImage:[
-                img9_1,img9_2,img9_3,img9_4,
-            ]
-        }
+        item:[
+            {itemTitle:"«Freshmama» food bags 3 pcs",itemQuantity:"1 p",itemPrice:"1100 AMD",itemImage:img9_1,id:Math.random()},
+            {itemTitle:"Reusable cotton bag",itemQuantity:"1 p",itemPrice:"1250 AMD",itemImage:img9_2,id:Math.random()},
+            {itemTitle:"Reusable bag small",itemQuantity:"1 p",itemPrice:"450 AMD",itemImage:img9_3,id:Math.random()},
+            {itemTitle:"Large reusable bag",itemQuantity:"1 p",itemPrice:"950 AMD",itemImage:img9_4,id:Math.random()},
+        ]
     }
 ];
     

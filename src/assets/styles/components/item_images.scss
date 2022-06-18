@@ -1,0 +1,9 @@
+.item_img-container{
+    text-align: center;
+    box-shadow: $box-shadow;
+    img{
+        width: 160px;
+        height: 160px;
+        object-fit: contain;
+    }
+}

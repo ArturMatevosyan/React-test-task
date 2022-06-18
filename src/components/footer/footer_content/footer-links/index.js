@@ -7,7 +7,7 @@ const FooterLinks = ()=>{
     
     return(
         <div className="footer_links">
-            <a href="*">
+            <a href="mailto:artmatevosyan98@gmail.com">
                 <img src={message}/>
             </a>
             <a href="https://www.facebook.com/" target="_blank">
