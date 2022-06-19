@@ -74,7 +74,7 @@ export const Section = [
         imgMain:img2,
         id:Math.random(),
         item:[
-            {itemTitle:"Wild mushmala",itemQuantity:"0.5 kg",itemPrice:"1400 AMD",itemImage:img2_1,id:Math.random()},
+            {itemTitle:"Wild mushmala",itemQuantity:"0.5 kg",itemPrice:"1400 AMD",itemImage:img2_1,id:"Math.random()"},
             {itemTitle:"Cherry chal",itemQuantity:"1 kg",itemPrice:"1250 AMD",itemImage:img2_2,id:Math.random()},
             {itemTitle:"Cherries",itemQuantity:"1 kg",itemPrice:"2900 AMD",itemImage:img2_3,id:Math.random()},
             {itemTitle:"Cherry",itemQuantity:"1 kg",itemPrice:"1900 AMD",itemImage:img2_4,id:Math.random()},

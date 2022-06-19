@@ -17,6 +17,10 @@
     a{
         display: flex;
         justify-content: center;
+        transition: 0.8s;
+        &:active img{
+            width: 34px;
+        }
         img{
             width: 32px;
         }
