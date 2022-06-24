@@ -2,22 +2,20 @@
     width: 100%;
     display: grid;
     grid-gap: 15px;
-        
     grid-template-columns: repeat(5,calc(100%/5 - 12px));
     .product-items{
         width: 100%;
         overflow: hidden;
         transition: 0.3s;
         border-radius: 8px;
+        cursor: pointer;
         &:hover{
             box-shadow: $box-shadow;
             transition: 0.3s;
             .border-left{
                 display: none;
             }
-            
         }
-        cursor: pointer;
         
     }
     @media (max-width: 1280px) {

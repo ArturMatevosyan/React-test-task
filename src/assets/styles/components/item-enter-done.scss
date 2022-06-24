@@ -1,0 +1,35 @@
+.section-item-enter_done{
+    background-color: white;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    cursor: default;
+    .close{
+        position: absolute;
+        right: 13px;
+        top: 7px;
+        font-size: 18px;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+    .item-enter_done_top{
+        height: 104px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .title_inner{
+            padding: 7px 0;
+            .quantity-price-inner{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    .product_actions{
+        .product_counter-container{
+            
+        }
+    }
+}

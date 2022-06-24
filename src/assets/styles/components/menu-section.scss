@@ -3,4 +3,10 @@
     flex-wrap: wrap;
     align-items: center;
     height: 100%;
+    &.empty{
+        display: none;
+    }
+}
+.menu-section1{
+    display: none;
 }

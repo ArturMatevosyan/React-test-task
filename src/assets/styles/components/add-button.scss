@@ -1,0 +1,16 @@
+.add-button{
+    width: 100%;
+    
+    cursor: pointer;
+    button{
+        padding: 12px;
+        font-size: 12px;
+        width: 100%;
+        border: none;
+        background-color: #85af36;
+        cursor: pointer;
+        &:hover{
+            background-color:#73982e ;
+        }
+    }
+}

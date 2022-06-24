@@ -11,12 +11,12 @@ const PrivacyLink =()=>{
             <h4 >{privacy.subtitle1}</h4>
             <p>{privacy.text1}</p>
             <ul>{privacy.data1.map((e)=>{
-                return <li>{e.textData}</li>
+                return <li key={e.id}>{e.textData}</li>
             })}</ul>
             <h4>{privacy.subtitle2}</h4>
             <p>{privacy.text2}</p>
             <ul>{privacy.data2.map((e)=>{
-                return <li>{e.textData}</li>
+                return <li key={e.id}>{e.textData}</li>
             })}</ul>
             <div className="text_subtitle-3">
             <h4>{privacy.subtitle3}</h4>
