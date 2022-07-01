@@ -5,7 +5,7 @@ import SearchInput from "./search-input";
 const Search = ({searchInp,setSearchInp})=>{
     return(
         <div className="search">
-            {searchInp ? "" : <SearchInput/>}
+            <SearchInput searchInp={searchInp}/>
             {searchInp ? <img src={search} onClick={()=>{
                 setSearchInp(false)
             }}/> : <span onClick={()=>{

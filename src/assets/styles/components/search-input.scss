@@ -1,18 +1,25 @@
 .search-input{
     padding: 0 15px;
     width: 100%;
-    @media only screen and (max-width:942px){
+    @media only screen and (max-width:986px){
         position: absolute;
-        top: 76px;
-        left:0;
+        top: 56px;
+        right:0;
+        height: 100%;
     }
     input{
         border: none;
         height: 100%;
         font-size: 16px;
         border-bottom: 2px solid $color-green;
-        width: 100%;
         outline: none;
         background-color: transparent;
+        position:absolute;
+        right: 40px;
+        transition: 0.5s;
+        
+        @media only screen and (max-width:986px){
+            transition: 0s; 
+        }
     }
 }

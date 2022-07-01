@@ -3,7 +3,7 @@ import React from "react";
 const ItemQuantity = ({item})=>{
     return(
         <div className="item_quantity">
-            <span>{item.itemQuantity}</span>
+            <span>{item.itemQuantity} {item.weight}</span>
         </div>
      )
 }

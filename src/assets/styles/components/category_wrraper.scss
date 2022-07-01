@@ -3,6 +3,7 @@
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(5,calc(100%/5 - 12px));
+    
     .product-items{
         width: 100%;
         overflow: hidden;

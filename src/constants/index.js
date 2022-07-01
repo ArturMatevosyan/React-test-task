@@ -60,13 +60,13 @@ export const Section = [
         imgMain:img1,
         id:Math.random(),
         item:[
-            {itemTitle:"Fruit salad 200 g",itemQuantity:"1 p",itemPrice:"600 AMD",itemImage:img1_1,id:Math.random()},
-            {itemTitle:"Cold cucumis melo sliced",itemQuantity:"0.5 kg",itemPrice:"750 AMD",itemImage:img1_2,id:Math.random()},
-            {itemTitle:"Cold watermelon sliced",itemQuantity:"1 kg",itemPrice:"800 AMD",itemImage:img1_3,id:Math.random()},
-            {itemTitle:"Cleaned pitakhaya",itemQuantity:"1 p",itemPrice:"5300 AMD",itemImage:img1_4,id:Math.random()},
-            {itemTitle:"Peeled bananas",itemQuantity:"100 g",itemPrice:"180 AMD",itemImage:img1_5,id:Math.random()},
-            {itemTitle:"Peeled coconut",itemQuantity:"1 p",itemPrice:"1500 AMD",itemImage:img1_6,id:Math.random()},
-            {itemTitle:"Tray with fruits",itemQuantity:"1 p",itemPrice:"25000 AMD",itemImage:img1_7,id:Math.random()},
+            {itemTitle:"Fruit salad 200 g",itemQuantity:1,weight:"p",itemPrice:600,itemImage:img1_1,id:Math.random()},
+            {itemTitle:"Cold cucumis melo sliced",itemQuantity:0.5,weight:"kg",itemPrice:750,itemImage:img1_2,id:Math.random()},
+            {itemTitle:"Cold watermelon sliced",itemQuantity:1,weight:"kg",itemPrice:800,itemImage:img1_3,id:Math.random()},
+            {itemTitle:"Cleaned pitakhaya",itemQuantity:1,weight:"p",itemPrice:5300,itemImage:img1_4,id:Math.random()},
+            {itemTitle:"Peeled bananas",itemQuantity:100,weight:"g",itemPrice:180,itemImage:img1_5,id:Math.random()},
+            {itemTitle:"Peeled coconut",itemQuantity:1,weight:"p",itemPrice:1500,itemImage:img1_6,id:Math.random()},
+            {itemTitle:"Tray with fruits",itemQuantity:1,weight:"p",itemPrice:25000,itemImage:img1_7,id:Math.random()},
         ]
     },
     {
@@ -74,13 +74,13 @@ export const Section = [
         imgMain:img2,
         id:Math.random(),
         item:[
-            {itemTitle:"Wild mushmala",itemQuantity:"0.5 kg",itemPrice:"1400 AMD",itemImage:img2_1,id:"Math.random()"},
-            {itemTitle:"Cherry chal",itemQuantity:"1 kg",itemPrice:"1250 AMD",itemImage:img2_2,id:Math.random()},
-            {itemTitle:"Cherries",itemQuantity:"1 kg",itemPrice:"2900 AMD",itemImage:img2_3,id:Math.random()},
-            {itemTitle:"Cherry",itemQuantity:"1 kg",itemPrice:"1900 AMD",itemImage:img2_4,id:Math.random()},
-            {itemTitle:"Nectar",itemQuantity:"1 kg",itemPrice:"2700 AMD",itemImage:img2_5,id:Math.random()},
-            {itemTitle:"Peach",itemQuantity:"0.5kg",itemPrice:"2950 AMD",itemImage:img2_6,id:Math.random()},
-            {itemTitle:"Cold watermelon",itemQuantity:"6kg",itemPrice:"2340 AMD",itemImage:img2_7,id:Math.random()},
+            {itemTitle:"Wild mushmala",itemQuantity:0.5,weight:"kg",itemPrice:1400,itemImage:img2_1,id:"Math.random()"},
+            {itemTitle:"Cherry chal",itemQuantity:1,weight:"kg",itemPrice:1250,itemImage:img2_2,id:Math.random()},
+            {itemTitle:"Cherries",itemQuantity:1,weight:"kg",itemPrice:2900,itemImage:img2_3,id:Math.random()},
+            {itemTitle:"Cherry",itemQuantity:1,weight:"kg",itemPrice:1900,itemImage:img2_4,id:Math.random()},
+            {itemTitle:"Nectar",itemQuantity:1,weight:"kg",itemPrice:2700,itemImage:img2_5,id:Math.random()},
+            {itemTitle:"Peach",itemQuantity:0.5,weight:"kg",itemPrice:2950,itemImage:img2_6,id:Math.random()},
+            {itemTitle:"Cold watermelon",itemQuantity:6,weight:"kg",itemPrice:2340,itemImage:img2_7,id:Math.random()},
         ],
     },
     {
@@ -88,14 +88,14 @@ export const Section = [
         imgMain:img3,
         id:Math.random(),
         item:[
-            {itemTitle:"Potatoes",itemQuantity:"1 kg",itemPrice:"700 AMD",itemImage:img3_1,id:Math.random()},
-            {itemTitle:"Potato new",itemQuantity:"1 kg",itemPrice:"390 AMD",itemImage:img3_2,id:Math.random()},
-            {itemTitle:"Corn",itemQuantity:"1 p",itemPrice:"420 AMD",itemImage:img3_3,id:Math.random()},
-            {itemTitle:"Beans",itemQuantity:"1 kg",itemPrice:"1100 AMD",itemImage:img3_4,id:Math.random()},
-            {itemTitle:"Tomato mix",itemQuantity:"0.5 kg",itemPrice:"1200 AMD",itemImage:img3_5,id:Math.random()},
-            {itemTitle:"Haricot",itemQuantity:"1 kg",itemPrice:"910 AMD",itemImage:img3_6,id:Math.random()},
-            {itemTitle:"Garlic",itemQuantity:"100 g",itemPrice:"140 AMD",itemImage:img3_7,id:Math.random()},
-            {itemTitle:"Cucumber",itemQuantity:"1 kg",itemPrice:"650 AMD",itemImage:img3_8,id:Math.random()},
+            {itemTitle:"Potatoes",itemQuantity:1,weight:"kg",itemPrice:700,itemImage:img3_1,id:Math.random()},
+            {itemTitle:"Potato new",itemQuantity:1,weight:"kg",itemPrice:390,itemImage:img3_2,id:Math.random()},
+            {itemTitle:"Corn",itemQuantity:1,weight:"p",itemPrice:420,itemImage:img3_3,id:Math.random()},
+            {itemTitle:"Beans",itemQuantity:1,weight:"kg",itemPrice:1100,itemImage:img3_4,id:Math.random()},
+            {itemTitle:"Tomato mix",itemQuantity:0.5,weight:"kg",itemPrice:1200,itemImage:img3_5,id:Math.random()},
+            {itemTitle:"Haricot",itemQuantity:1,weight:"kg",itemPrice:910,itemImage:img3_6,id:Math.random()},
+            {itemTitle:"Garlic",itemQuantity:100,weight:"g",itemPrice:140,itemImage:img3_7,id:Math.random()},
+            {itemTitle:"Cucumber",itemQuantity:1,weight:"kg",itemPrice:650,itemImage:img3_8,id:Math.random()},
         ]
     },
     {
@@ -103,10 +103,10 @@ export const Section = [
         imgMain:img4,
         id:Math.random(),
         item:[
-            {itemTitle:"Mulberry",itemQuantity:"100 g",itemPrice:"165 AMD",itemImage:img4_1,id:Math.random()},
-            {itemTitle:"Blueberries",itemQuantity:"100 g",itemPrice:"1200 AMD",itemImage:img4_2,id:Math.random()},
-            {itemTitle:"Physalis",itemQuantity:"100 g",itemPrice:"1200 AMD",itemImage:img4_3,id:Math.random()},
-            {itemTitle:"Kumquat",itemQuantity:"100 g",itemPrice:"670 AMD",itemImage:img4_4,id:Math.random()},
+            {itemTitle:"Mulberry",itemQuantity:100,weight:"g",itemPrice:165,itemImage:img4_1,id:Math.random()},
+            {itemTitle:"Blueberries",itemQuantity:100,weight:"g",itemPrice:1200,itemImage:img4_2,id:Math.random()},
+            {itemTitle:"Physalis",itemQuantity:100,weight:"g",itemPrice:1200,itemImage:img4_3,id:Math.random()},
+            {itemTitle:"Kumquat",itemQuantity:100,weight:"g",itemPrice:670,itemImage:img4_4,id:Math.random()},
         ]
     },
     {
@@ -114,10 +114,10 @@ export const Section = [
         imgMain:img5,
         id:Math.random(),
         item:[
-            {itemTitle:"Aloe",itemQuantity:"1kg",itemPrice:"3500 AMD",itemImage:img5_1,id:Math.random()},
-            {itemTitle:"Bok Choi",itemQuantity:"0.5 kg",itemPrice:"2000 AMD",itemImage:img5_2,id:Math.random()},
-            {itemTitle:"Asparagus",itemQuantity:"100 g",itemPrice:"100 AMD",itemImage:img5_3,id:Math.random()},
-            {itemTitle:"Sorrel",itemQuantity:"1 p",itemPrice:"1000 AMD",itemImage:img5_4,id:Math.random()},
+            {itemTitle:"Aloe",itemQuantity:1,weight:"kg",itemPrice:3500,itemImage:img5_1,id:Math.random()},
+            {itemTitle:"Bok Choi",itemQuantity:0.5,weight:"kg",itemPrice:2000,itemImage:img5_2,id:Math.random()},
+            {itemTitle:"Asparagus",itemQuantity:100,weight:"g",itemPrice:100,itemImage:img5_3,id:Math.random()},
+            {itemTitle:"Sorrel",itemQuantity:1,weight:"p",itemPrice:1000,itemImage:img5_4,id:Math.random()},
         ]
     },
     {
@@ -125,10 +125,10 @@ export const Section = [
         imgMain:img6,
         id:Math.random(),
         item:[
-            {itemTitle:"Dried banana 30g .",itemQuantity:"1 p",itemPrice:"1500 AMD",itemImage:img6_1,id:Math.random()},
-            {itemTitle:"Dried kiwi 30g ․",itemQuantity:"1 p",itemPrice:"1700 AMD",itemImage:img6_2,id:Math.random()},
-            {itemTitle:"Dried orange 30g ․",itemQuantity:"1 p",itemPrice:"1750 AMD",itemImage:img6_3,id:Math.random()},
-            {itemTitle:"Dried apple 30g ․",itemQuantity:"1 p",itemPrice:"1500 AMD",itemImage:img6_4,id:Math.random()},
+            {itemTitle:"Dried banana 30g .",itemQuantity:1,weight:"p",itemPrice:1500,itemImage:img6_1,id:Math.random()},
+            {itemTitle:"Dried kiwi 30g ․",itemQuantity:1,weight:"p",itemPrice:1700,itemImage:img6_2,id:Math.random()},
+            {itemTitle:"Dried orange 30g ․",itemQuantity:1,weight:"p",itemPrice:1750,itemImage:img6_3,id:Math.random()},
+            {itemTitle:"Dried apple 30g ․",itemQuantity:1,weight:"p",itemPrice:1500,itemImage:img6_4,id:Math.random()},
         ]
     },
     {
@@ -136,12 +136,12 @@ export const Section = [
         imgMain:img7,
         id:Math.random(),
         item:[
-            {itemTitle:"Unpeeled peanuts",itemQuantity:"1 kg",itemPrice:"1900 AMD",itemImage:img7_1,id:Math.random()},
-            {itemTitle:"Peeled apricot kernel",itemQuantity:"100 g",itemPrice:"520 AMD",itemImage:img7_2,id:Math.random()},
-            {itemTitle:"Groceries mixed",itemQuantity:"100 g",itemPrice:"880 AMD",itemImage:img7_3,id:Math.random()},
-            {itemTitle:"Brazil nuts",itemQuantity:"100 g",itemPrice:"1200 AMD",itemImage:img7_4,id:Math.random()},
-            {itemTitle:"Pecan cleaned",itemQuantity:"100 g",itemPrice:"1550 AMD",itemImage:img7_5,id:Math.random()},
-            {itemTitle:"Indian nut (cashew)",itemQuantity:"100 g",itemPrice:"1050 AMD",itemImage:img7_6,id:Math.random()},
+            {itemTitle:"Unpeeled peanuts",itemQuantity:1,weight:"kg",itemPrice:1900,itemImage:img7_1,id:Math.random()},
+            {itemTitle:"Peeled apricot kernel",itemQuantity:100,weight:"g",itemPrice:520,itemImage:img7_2,id:Math.random()},
+            {itemTitle:"Groceries mixed",itemQuantity:100,weight:"g",itemPrice:880,itemImage:img7_3,id:Math.random()},
+            {itemTitle:"Brazil nuts",itemQuantity:100,weight:"g",itemPrice:1200,itemImage:img7_4,id:Math.random()},
+            {itemTitle:"Pecan cleaned",itemQuantity:100,weight:"g",itemPrice:1550,itemImage:img7_5,id:Math.random()},
+            {itemTitle:"Indian nut (cashew)",itemQuantity:100,weight:"g",itemPrice:1050,itemImage:img7_6,id:Math.random()},
         ]
     },
     {
@@ -149,8 +149,9 @@ export const Section = [
         imgMain:img8,
         id:Math.random(),
         item:[
-            {itemTitle:"«Aygimarket» Bounty",itemQuantity:"1 p",itemPrice:"480 AMD",itemImage:img8_1,id:Math.random()},
-            {itemTitle:"Chocolate with dark protein Chikasport almonds, 100 g",itemQuantity:"1 p",itemPrice:"1700 AMD",itemImage:img8_2,id:Math.random()},
+            {itemTitle:"«Aygimarket» Bounty",itemQuantity:1,weight:"p",itemPrice:480,itemImage:img8_1,id:Math.random()},
+            {itemTitle:"Chocolate with dark protein Chikasport almonds, 100 g",itemQuantity:1,weight:"p",
+                itemPrice:1700,itemImage:img8_2,id:Math.random()},
         ]
     },
     {
@@ -158,10 +159,10 @@ export const Section = [
         imgMain:img9,
         id:Math.random(),
         item:[
-            {itemTitle:"«Freshmama» food bags 3 pcs",itemQuantity:"1 p",itemPrice:"1100 AMD",itemImage:img9_1,id:Math.random()},
-            {itemTitle:"Reusable cotton bag",itemQuantity:"1 p",itemPrice:"1250 AMD",itemImage:img9_2,id:Math.random()},
-            {itemTitle:"Reusable bag small",itemQuantity:"1 p",itemPrice:"450 AMD",itemImage:img9_3,id:Math.random()},
-            {itemTitle:"Large reusable bag",itemQuantity:"1 p",itemPrice:"950 AMD",itemImage:img9_4,id:Math.random()},
+            {itemTitle:"«Freshmama» food bags 3 pcs",itemQuantity:1,weight:"p",itemPrice:1100,itemImage:img9_1,id:Math.random()},
+            {itemTitle:"Reusable cotton bag",itemQuantity:1,weight:"p",itemPrice:1250,itemImage:img9_2,id:Math.random()},
+            {itemTitle:"Reusable bag small",itemQuantity:1,weight:"p",itemPrice:450,itemImage:img9_3,id:Math.random()},
+            {itemTitle:"Large reusable bag",itemQuantity:1,weight:"p",itemPrice:950,itemImage:img9_4,id:Math.random()},
         ]
     }
 ];

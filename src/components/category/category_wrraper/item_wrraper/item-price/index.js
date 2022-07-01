@@ -3,7 +3,7 @@ import React from "react";
 const ItemPrice = ({item})=>{
     return(
         <div className="item-price">
-            <span>{item.itemPrice}</span>
+            <span>{item.itemPrice} AMD</span>
         </div>
      )
 }

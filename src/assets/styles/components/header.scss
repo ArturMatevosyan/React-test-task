@@ -31,13 +31,16 @@
                 justify-content: space-between;
                 .section-contact_cont{
                     display: flex;
-                    @media only screen and (max-width:942px){
+                    @media only screen and (max-width:986px){
                         display: none;
                     }
                 }
                 .src-lng-cart-log_cont{
                     display: flex;
                     flex: 1;
+                    @media only screen and (max-width:986px){
+                        position: relative;
+                    } 
                 }
                 }
         }
@@ -48,7 +51,7 @@
         min-height: 46px;
         background-color: white;
         box-shadow: 0px 0px 5px 0px;
-        @media only screen and (max-width:942px){
+        @media only screen and (max-width:986px){
             display: flex;
         }
         .media-section{

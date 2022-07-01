@@ -1,9 +1,9 @@
 import React from "react";
 
-const SearchInput = ()=>{
+const SearchInput = ({searchInp})=>{
     return(
-        <div className="search-input">
-            <input type="text" placeholder="Search ..."/>
+        <div className="search-input" >
+            <input type="text" placeholder="Search ..." style={{width: `${searchInp ? 0 : "95%"}`}}/>
         </div>
     )
 }
